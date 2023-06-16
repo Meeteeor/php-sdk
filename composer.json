@@ -1,0 +1,34 @@
+{
+    "name": "meeteeor/sdk",
+    "version": "3.2.2",
+	"description": "Meeteeor SDK for PHP",
+	"keywords": [
+		"meeteeor",
+		"payment",
+		"php",
+		"sdk",
+		"api"
+	],
+	"homepage": "http://github.com/Meeteeor/php-sdk",
+	"license": "Apache-2.0",
+	"authors": [
+		{
+			"name": "wallee AG",
+			"homepage": "https://wallee.com"
+		}
+	],
+	"require": {
+		"php": ">=5.6",
+		"ext-json": "*",
+		"ext-mbstring": "*"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~8"
+	},
+	"autoload": {
+		"psr-4": { "Meeteeor\\Sdk\\" : "lib/" }
+	},
+	"autoload-dev": {
+		"psr-4": { "Meeteeor\\Sdk\\" : "test/" }
+	}
+}
