@@ -48,7 +48,7 @@ final class ApiClient {
 	 * @var array
 	 */
 	private $defaultHeaders = [
-        'x-meta-sdk-version' => "3.2.2",
+        'x-meta-sdk-version' => "3.2.0",
         'x-meta-sdk-language' => 'php',
         'x-meta-sdk-provider' => "Meeteeor",
     ];
@@ -58,7 +58,7 @@ final class ApiClient {
 	 *
 	 * @var string
 	 */
-	private $userAgent = 'PHP-Client/3.2.2/php';
+	private $userAgent = 'PHP-Client/3.2.0/php';
 
 	/**
 	 * The path to the certificate authority file.

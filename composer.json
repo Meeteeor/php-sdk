@@ -1,6 +1,6 @@
 {
     "name": "meeteeor/sdk",
-    "version": "3.2.2",
+    "version": "3.2.0",
 	"description": "Meeteeor SDK for PHP",
 	"keywords": [
 		"meeteeor",
